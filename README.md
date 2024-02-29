@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#">História dos computadores</a></li>
+        <li><a href="#">O que são <i>Clients</i>?</a></li>
+        <li><a href="#">O que são <i>Servers</i>?</a></li>
+        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#">Links de referências</a></li>
+    </ul>
+
+    <h2>História dos computadores</h2>
+    <p>A história dos computadores é fascinante e remonta a milhares de anos. Desde os primeiros dispositivos de cálculo mecânico até os computadores modernos, houve uma evolução significativa na tecnologia.</p>
+    <p>Inicialmente, os seres humanos usavam métodos rudimentares, como o ábaco, para realizar cálculos simples. Com o passar do tempo, surgiram dispositivos mais complexos, como as calculadoras mecânicas de Blaise Pascal e Gottfried Wilhelm Leibniz, no século XVII.</p>
+    <p>No século XIX, Charles Babbage desenvolveu o conceito de uma "máquina analítica", considerada o precursor dos computadores modernos. No entanto, essa máquina nunca foi concluída durante sua vida.</p>
+    <p>O século XX viu avanços significativos na computação, especialmente durante a Segunda Guerra Mundial, quando os computadores foram usados para criptografar mensagens e calcular trajetórias de mísseis. Um marco importante foi o desenvolvimento do ENIAC (Electronic Numerical Integrator and Computer), o primeiro computador eletrônico de grande escala, em 1946.</p>
+    <p>A partir daí, a evolução dos computadores foi rápida, com o surgimento de computadores pessoais, laptops, smartphones e outros dispositivos eletrônicos. Atualmente, os computadores desempenham um papel fundamental em todas as áreas da vida moderna, desde a comunicação até a ciência e a indústria.</p>
+    <p>É incrível como a tecnologia evoluiu ao longo dos séculos, transformando radicalmente a maneira como vivemos e interagimos com o mundo ao nosso redor.</p>
+    <p>Para mais informações sobre os Primeiros Passos com HTML, você pode consultar <a href="#">este link</a>.</p>
+    <h2>O que são <i>Clients</i>?</h2>
+    <p><font size="3">Clients, ou clientes, são dispositivos ou programas de computador que acessam e interagem com serviços ou recursos fornecidos por um servidor. Em uma arquitetura cliente-servidor, o cliente envia solicitações para o servidor e recebe respostas. Exemplos comuns de <sub>clientes</sub> incluem navegadores da web, aplicativos de e-mail e aplicativos de mídia social.</font></p>
+    <p>Os clientes podem ser classificados de várias maneiras, como clientes leves e clientes pesados. Clientes leves geralmente têm menos recursos de processamento e dependem mais do servidor para executar tarefas, enquanto clientes pesados têm mais recursos e podem executar algumas tarefas localmente.</p>
+    <p>No contexto da web, os clientes são responsáveis por interpretar e exibir conteúdo HTML, CSS e JavaScript recebido do servidor, permitindo aos usuários interagir com aplicativos e sites.</p>
+    <p>Para mais informações sobre os Primeiros Passos com HTML, você pode consultar <a href="#">este link</a>.</p>
+    <h2>O que são <i>Servers</i>?</h2>
+    <p><font size="3">Servers, ou servidores, são computadores ou sistemas de computador que fornecem recursos, serviços ou dados para outros dispositivos, conhecidos como clientes, em uma rede. Em uma arquitetura cliente-servidor, os servidores respondem às solicitações dos clientes, fornecendo-lhes os recursos solicitados.</font></p>
+    <p>Existem diferentes tipos de <sup>servidores</sup>, cada um projetado para fornecer tipos específicos de serviços. Por exemplo, servidores web fornecem páginas da web e outros conteúdos da Internet para navegadores da web, enquanto servidores de e-mail gerenciam o envio, recebimento e armazenamento de e-mails.</p>
+    <p>Os servidores podem ser hardware físico dedicado ou software que é executado em hardware compartilhado. Eles geralmente operam continuamente e estão configurados para atender a múltiplos clientes simultaneamente.</p>
+    <p>Para mais informações sobre os Primeiros Passos com HTML, você pode consultar <a href="#">este link</a>.</p>
+
+    <h2>Como é uma estrutura básica de um HTML?</h2>
+    <p>A estrutura básica de um documento HTML inclui elementos essenciais que definem a estrutura e o conteúdo da página da web. Aqui está uma visão geral dos principais componentes:</p>
+    <ol>
+        <li><strong>DOCTYPE:</strong> Declaração que define o tipo de documento e sua versão.</li>
+        <li><strong>HTML</strong>: Elemento raiz que engloba todo o conteúdo HTML da página.</li>
+        <li><strong>HEAD</strong>: Contém metadados, como o título da página, links para folhas de estilo, scripts e outras informações.</li>
+        <li><strong>BODY</strong>: Contém o conteúdo visível da página, como texto, imagens, vídeos, formulários, etc.</li>
+    </ol>
+    <p>Esses são os elementos básicos que compõem a estrutura de um documento HTML. A partir daí, você pode adicionar mais elementos e atributos para criar páginas mais complexas e interativas.</p>
+    <p>Para mais informações sobre os Primeiros Passos com HTML, você pode consultar <a href="#">este link</a>.</p>
+    
+    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p><strong>Listas ordenadas</strong> são listas em que os itens são numerados ou marcados com algum tipo de sequência. Cada item é precedido por um número ou um marcador, indicando a ordem ou a classificação dos itens. Essas listas são criadas usando a tag &lt;ol&gt; (ordered list) e cada item da lista é representado pela tag &lt;li&gt; (list item).</p>
+    <p><em>Por exemplo:</em></p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    
+    <p><strong>Listas não ordenadas</strong>, por outro lado, são listas em que os itens não seguem uma ordem específica. Cada item é marcado com um símbolo, geralmente um ponto ou um traço, para indicar que faz parte da lista. Essas listas são criadas usando a tag &lt;ul&gt; (unordered list) e cada item da lista é representado pela tag &lt;li&gt; (list item).</p>
+    <p><em>Por exemplo:</em></p>
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+    
+    <p>Em resumo, enquanto as listas ordenadas são usadas quando a ordem dos itens é importante, as listas não ordenadas são usadas quando a ordem não é relevante, mas é necessário agrupar itens relacionados.</p>
+    <p>Para mais informações sobre listas em HTML, você pode consultar <a href="#">este link</a>.</p>
+    
+    <h2>Links de referências</h2>
+    <ul>
+        <li><a href="#">http://dio.me</a></li>
+        <li><a href="#">http://w3c.org</a></li>
+    </ul>
+    <p><abbr title="HyperText Markup Language"><del>HTML</del></abbr> Este site foi criado para fins educacionais.</p>
+</body>
+</html>
